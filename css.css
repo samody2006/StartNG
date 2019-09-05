@@ -28,6 +28,7 @@ height:26px;
 color:white;
 background-color:#666
 }
+
 .button {
   border: none;
   outline: 0;
@@ -40,6 +41,7 @@ background-color:#666
   width: 100%;
   font-size: 18px;
 }
+
 ul.a {
   list-style-type: square;
 }
@@ -121,4 +123,3 @@ footer {
     -webkit-flex-direction: column;
     flex-direction: column;
   }
-}
