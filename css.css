@@ -28,10 +28,7 @@ height:26px;
 color:white;
 background-color:#666
 }
- .home{float:left;
-color:white;
-background-color:#666
-}
+
 .button {
   border: none;
   outline: 0;
@@ -126,4 +123,3 @@ footer {
     -webkit-flex-direction: column;
     flex-direction: column;
   }
-
