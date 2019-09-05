@@ -1,0 +1,129 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  background-color: white;
+  color: #666;
+  border: 2px solid #666;
+  border-radius: 16px;
+  width: 250px; 
+  padding: 5px 10px;
+}
+.bar{
+	color:#000;
+	height:26px;
+	background-color:white
+}
+.innerbar{color:#fff;
+	background-color:#666;
+height:26px;
+}
+.Skills{width:50%;
+}
+ .date{float:right;
+color:white;
+background-color:#666
+}
+ .home{float:left;
+color:white;
+background-color:#666
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+ul.a {
+  list-style-type: square;
+}
+    .striped-border {
+        border: 1px dashed #000;
+        width: 100%;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  line-height:0.1;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{line-height:0.1;}
+
+header {
+  background-color: #666;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  line-height:0.1;
+}
+
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding:;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
